@@ -11,7 +11,9 @@ import {
   blogSection,
   talkSection,
   achievementSection,
-  resumeSection
+  resumeSection,
+  bigProjects,
+  educationInfo
 } from "../../portfolio";
 
 function Header() {
@@ -23,6 +25,8 @@ function Header() {
   const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
   const viewResume = resumeSection.display;
+  const viewBigProjects = bigProjects.display;
+  const viewEducation = educationInfo.display;
 
   return (
     <Headroom>
@@ -30,7 +34,7 @@ function Header() {
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
-          <span className="grey-color">/&gt;</span>
+          <span className="grey-color">&gt;</span>
         </a>
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
@@ -46,6 +50,11 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
+          {viewSkills && (
+            <li>
+              <a href="#education">Education</a>
+            </li>
+          )}
           {viewExperience && (
             <li>
               <a href="#experience">Work Experiences</a>
@@ -54,6 +63,11 @@ function Header() {
           {viewOpenSource && (
             <li>
               <a href="#opensource">Open Source</a>
+            </li>
+          )}
+          {viewBigProjects && (
+            <li>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewAchievement && (
