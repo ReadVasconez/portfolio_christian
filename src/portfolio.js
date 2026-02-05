@@ -10,7 +10,7 @@ import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
-  duration: 1000 // Set animation duration as per your animation
+  duration: 1500 // Set animation duration as per your animation
 };
 
 // Summary And Greeting Section
@@ -35,8 +35,8 @@ Designing high-performance, scalable systems, AI/ML integrations, Cloud (AWS, GC
 
 const socialMediaLinks = {
   github: "https://github.com/readvasconez",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  linkedin: "https://www.linkedin.com/in/read-vasconez-ortiz96/",
+  gmail: "readsaydvasconezortiz97@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -504,7 +504,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+57-0000000000",
-  email_address: "thesilvercrane94@gmail.com"
+  email_address: "readsaydvasconezortiz97@gmail.com"
 };
 
 // Twitter Section
