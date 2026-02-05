@@ -348,7 +348,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/adminlte_logo.png"),
+      image: require("./assets/images/vercel_e_commerce_logo.png"),
       projectName: "E-commerce",
       projectDesc: "E-commerce store interface",
       footerLink: [
