@@ -503,7 +503,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+57-3147305446",
+  number: "+57 314 730 5446",
   email_address: "readsaydvasconezortiz97@gmail.com"
 };
 
