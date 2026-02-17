@@ -48,7 +48,7 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRISP AND EFFICIENT SOFTWARE SOLUTIONS",
   skills: [
-    emoji("⚡ Full-Stack Web Development (React, Node.js, Express, Next.js)"),
+    emoji("⚡ Full-Stack Web Development (React, Node.js, Express, Next.js, WordPress)"),
     emoji("⚡ Mobile App Development (Android & iOS)"),
     emoji("⚡ Cloud Architecture: AWS, GCP, Azure"),
     emoji("⚡ CI/CD Automation & DevOps"),
@@ -72,6 +72,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "WordPress",
+      fontAwesomeClassname: "fab fa-wordpress"
     },
     {
       skillName: "JavaScript",
