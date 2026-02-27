@@ -381,61 +381,71 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements🏆"),
-  subtitle:
-    "Achievements and Some Cool Stuff that I have done!",
+  title: emoji("Certificates🏆"),
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Software Engineer",
+      image: require("./assets/images/certificates_software_engineer.png"),
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View",
+          url: "https://www.hackerrank.com/certificates/0c838da72779"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Frontend Developer",
+      image: require("./assets/images/certificates_frontend_react.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View",
+          url: "https://www.hackerrank.com/certificates/9f74437d2bfb"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Problem Solving",
+      image: require("./assets/images/certificates_problem_solving.png"),
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View",
+          url: "https://www.hackerrank.com/certificates/0ca86cef855b"
         }
       ]
-    }
+    },
+    {
+      title: "Go",
+      image: require("./assets/images/certificates_language_go.png"),
+      footerLink: [
+        {
+          name: "View",
+          url: "https://www.hackerrank.com/certificates/6c58048da395"
+        }
+      ]
+    },
+    {
+      title: "JavaScript",
+      image: require("./assets/images/certificates_language_javascript.png"),
+      footerLink: [
+        {
+          name: "View",
+          url: "https://www.hackerrank.com/certificates/b1539890278d"
+        }
+      ]
+    },
+    {
+      title: "SQL",
+      image: require("./assets/images/certificates_sql.png"),
+      footerLink: [
+        {
+          name: "View",
+          url: "https://www.hackerrank.com/certificates/b179376edf99"
+        }
+      ]
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
