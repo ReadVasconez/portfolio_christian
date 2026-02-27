@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Read Vasconez",
-  title: "Hi, I'm Read Vasconez",
+  username: "Christian Choi",
+  title: "Hi, I'm Christian Choi",
   subTitle: emoji(
     `Senior Software Engineer with 7+ years experience in Full-Stack, Backend, Frontend & Mobile App Development (Android & iOS). 
 Designing high-performance, scalable systems, AI/ML integrations, Cloud (AWS, GCP, Azure), CI/CD, and DevOps. Focused on stability, reliability, and long-term maintainability.`
@@ -390,17 +390,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View",
-          url: "https://www.hackerrank.com/certificates/0c838da72779"
-        }
-      ]
-    },
-    {
-      title: "Frontend Developer",
-      image: require("./assets/images/certificates_frontend_react.png"),
-      footerLink: [
-        {
-          name: "View",
-          url: "https://www.hackerrank.com/certificates/9f74437d2bfb"
+          url: "https://www.hackerrank.com/certificates/5d5946ae9fb7"
         }
       ]
     },
@@ -410,27 +400,27 @@ const achievementSection = {
       footerLink: [
         {
           name: "View",
-          url: "https://www.hackerrank.com/certificates/0ca86cef855b"
+          url: "https://www.hackerrank.com/certificates/30cf18048abb"
         }
       ]
     },
     {
       title: "Go",
-      image: require("./assets/images/certificates_language_go.png"),
+      image: require("./assets/images/certificates_go.png"),
       footerLink: [
         {
           name: "View",
-          url: "https://www.hackerrank.com/certificates/6c58048da395"
+          url: "https://www.hackerrank.com/certificates/27a2ce127bc6"
         }
       ]
     },
     {
-      title: "JavaScript",
-      image: require("./assets/images/certificates_language_javascript.png"),
+      title: "Rest API",
+      image: require("./assets/images/certificates_restapi.png"),
       footerLink: [
         {
           name: "View",
-          url: "https://www.hackerrank.com/certificates/b1539890278d"
+          url: "https://www.hackerrank.com/certificates/602dfff04b62"
         }
       ]
     },
@@ -440,7 +430,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "View",
-          url: "https://www.hackerrank.com/certificates/b179376edf99"
+          url: "https://www.hackerrank.com/certificates/53554c940c0b"
         }
       ]
     },
