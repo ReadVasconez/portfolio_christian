@@ -23,7 +23,7 @@ const greeting = {
   username: "Christian Choi",
   title: "Hi, I'm Christian Choi",
   subTitle: emoji(
-    `Senior Software Engineer with 7+ years experience in Full-Stack, Backend, Frontend & Mobile App Development (Android & iOS). 
+    `Senior Software Engineer with 6+ years experience in Full-Stack, Backend, Frontend & Mobile App Development (Android & iOS). 
 Designing high-performance, scalable systems, AI/ML integrations, Cloud (AWS, GCP, Azure), CI/CD, and DevOps. Focused on stability, reliability, and long-term maintainability.`
   ),
   resumeLink:
@@ -34,9 +34,9 @@ Designing high-performance, scalable systems, AI/ML integrations, Cloud (AWS, GC
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/readvasconez",
-  linkedin: "https://www.linkedin.com/in/read-vasconez-ortiz96/",
-  gmail: "readsaydvasconezortiz97@gmail.com",
+  github: "https://github.com/ChristianHarryChoi",
+  linkedin: "https://www.linkedin.com/in/christian-choi-1997y8m17d/",
+  gmail: "christianchoi97@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -170,12 +170,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Universidad de Nariño — Faculty of Engineering",
-      subHeader: "Bachelor’s Degree in Software Engineering",
-      logo: require("./assets/images/universidad_de_nario_logo.png"),
-      duration: "2014.2 – 2018.12",
+      schoolName: "California State University, Channel Islands",
+      subHeader: "Bachelor of Science in Computer Science",
+      logo: require("./assets/images/CSUCI_logo.jpg"),
+      duration: "August 2014 - May 2018",
       desc: "Studied programming, data structures, algorithms, databases, operating systems, and system design. Built academic and practical projects covering backend, web, and end-to-end software systems.",
-      grade: "8.5 / 10",
+      grade: "3.4 / 4.0",
       descBullets: [
         "Participated as a student member in Software & Computing Club.",
         "Worked on collaborative software development projects."
@@ -212,9 +212,9 @@ const workExperiences = {
   experience: [
     {
     role: "Senior Software Engineer",
-    company: "BetterWorld (US – Remote)",
+    company: "BetterWorld Technology\n(US – Remote)",
     companylogo: require("./assets/images/betterworld_tech_logo.jpg"),
-    date: "2022.6 – Present",
+    date: "June 2022 - Present",
     descBullets: [
       <>Reduced load times by <strong>30–45%</strong>, improving engagement and conversion across web & mobile e-commerce apps.</>,
       <>Designed cloud systems on <strong>AWS, GCP, Azure</strong> to support <strong>2–3× traffic growth</strong> with high availability.</>,
@@ -228,9 +228,9 @@ const workExperiences = {
   },
   {
     role: "Full-Stack Engineer",
-    company: "Replit (US – Remote)",
+    company: "Replit\n(US – Remote)",
     companylogo: require("./assets/images/repl_it_logo.jpg"),
-    date: "2020.7 – 2022.5",
+    date: "July 2020 - May 2022",
     descBullets: [
       <>Improved feature responsiveness, reducing load times by <strong>25–35%</strong> and increasing retention.</>,
       <>Built scalable services on <strong>AWS, GCP, Azure</strong> supporting <strong>2–3× user growth</strong>.</>,
@@ -243,10 +243,10 @@ const workExperiences = {
     ]
   },
   {
-    role: "Software Developer",
-    company: "ActiveOne (CO - Hybrid",
-    companylogo: require("./assets/images/activeone_logo.jpg"),
-    date: "2019.1 – 2020.6",
+    role: "Software Engineer",
+    company: "SmartAxiom\n(US - Hybrid)",
+    companylogo: require("./assets/images/smartaxiom_logo.jpg"),
+    date: "January 2019 - June 2020",
     descBullets: [
       <>Delivered production systems supporting <strong>hundreds to thousands</strong> of active users.</>,
       <>Reduced recurring bugs and post-release fixes by <strong>20–30%</strong>.</>,
@@ -507,8 +507,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+57 314 730 5446",
-  email_address: "readsaydvasconezortiz97@gmail.com"
+  number: "+1 (339) 399 1037",
+  email_address: "christianchoi97@gmail.com"
 };
 
 // Twitter Section
